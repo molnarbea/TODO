@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.app {
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 350px;
+}
+
+.input {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.input input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+.input button {
+    padding: 10px 15px;
+    border-radius: 8px;
+    background: green;
+    color: white;
+    cursor: pointer;
+}
+
+
+.todos div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    
+}
+
+.todos p {
+    margin: 0;
+    flex: 1;
+}
+
+button {
+    cursor: pointer;
+    padding: 5px 8px;
+    border-radius: 6px;
+    margin-left: 5px;
+}
+
+.todos button:nth-child(2) {
+    background: green;
+    color: white;
+}
+
+.todos button:nth-child(3) {
+    background: red;
+    color: white;
+}
+
+.done {
+    text-decoration: line-through;
+    color: gray;
+}
